@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <title>PAI</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+                if (confirm("Czy grasz w gry?")){ 
+                    var gra = parseInt(prompt("Jaka jest twoja ulubiona gra", ""));
+                    var godziny = parseInt(prompt("Ile godzin w niej spędziłeś", ""));
+                if (godziny<=100) {
+                    document.write("Jesteś w tym początkujący")
+                }
+                    else if (godziny>100 && godziny<300){
+                        document.write("Jesteś doświadczony")
+                    }                                     
+                    else
+                        document.write("Jesteś w tym mistrzem")
+                }  
+
+                    else{
+                    document.write("Bardzo dobrze, tak trzymaj");
+                    }
+        </script>
+    </body>
+</html>
