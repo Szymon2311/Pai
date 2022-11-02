@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+
+	<input type="text" id="login1">
+	<input type="password" id="password1">
+	<button onclick="display()">Wyślij</button>
+	<p id="test1"> ... </p>
+	<p id="test2"> ... </p>
+	
+
+	<script type="text/javascript">
+		function display() {
+			var napis = document.getElementById("login1").value;
+			var napis1 = document.getElementById("password1").value;
+			document.getElementById("test1").textContent = napis;
+			document.getElementById("test2").textContent = napis1;
+		}
+	</script>
+
+</body>
+</html>
